@@ -2,7 +2,6 @@ const fs = require('node:fs');
 
 const data = fs.readFileSync('input.txt', 'utf8');
 
-// const data = '11-22,95-115,998-1012,1188511880-1188511890,222220-222224,1698522-1698528,446443-446449,38593856-38593862,565653-565659,824824821-824824827,2121212118-2121212124';
 const input = data.split(',');
 function validateIds(input) {
     let invalidSum = 0;
