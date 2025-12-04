@@ -54,8 +54,4 @@ function validateId(id) {
     return 0;
 }
 
-function div(val, by) {
-    return (val - val % by) / by;
-}
-
 console.log(validateIds(input))
